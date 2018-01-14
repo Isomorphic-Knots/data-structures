@@ -1,0 +1,65 @@
+	complexity analysis of important algorithms for project 6
+
+---------------------------------------------------------------------
+
+for getnumber() the the function is in a while loop, so i set a time 
+function to begin before the while loop started, then ended the time
+right after the while loop was completed.
+
+for the first run of the executable, with a total of 7680 numbers to
+process, the total runtime was 5.367 ms.
+
+the second run, with a total of 15360 numbers, the time elapsed in ms
+was 10.397.
+
+the third run, with a total of 30720 numbers, the elapsed time was
+19.44 ms
+
+then since the getcharandword() function is very similar, the while loop
+to collect the elements and store into a vector is linear time, O(n).
+
+________________________________________________________________________
+
+for mostnumbers(vector) the first run with a total amount of numbers of 7490
+ran with a total of 10332.625 ms.
+
+second input size: 15240
+time: 42671.032 ms
+
+third input size: 30720
+time: 174588.451 ms
+
+given the nested for loops this makes perfect since
+mostnumbers() big-o is O(n^2)
+
+_______________________________________________________________________
+
+for mostwords()
+
+total: 88
+time elapsed: 20.427 ms
+
+total:176
+elapsed:70.796 ms
+
+total:352
+elapsed:191.322 ms
+
+O(n^2)
+________________________________________________________________________
+
+for mostchar()
+
+total:900
+elapsed:296.824 ms
+
+total:1800
+elapsed:1080.696 ms
+
+total:3600 
+elapsed:4274.692 ms
+
+clearly, quadrupling for double input size, so o(n^2)
+
+
+

@@ -1,0 +1,2 @@
+Since makeEmpty(BinaryNode * & t) must visit each node exactly once in the
+tree so the whole tree must be traversed, then the time worst case time is O(n). 

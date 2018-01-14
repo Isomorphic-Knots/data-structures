@@ -1,0 +1,17 @@
+reverse         time elapsed in ms
+input size      run1    run2    run3    run4
+10              .017    .014    .016    .017
+100             .077    .061    .077    .075
+1000            .738    .596    .746    .758
+10000           6.905   7.074   7.25    6.654
+
+remove_if       time elapsed in ms
+input size      run1    run2    run3    run4
+10              .003    .004    .004    .003
+100             .015    .014    .015    .015
+1000            .145    .147    .147    .146
+10000           1.451   1.314   1.476   1.31
+
+the growth rate of both functions is linear.
+reverse() and remove_if() == O(N)
+both functions contain a single loop which forces O(N) time.

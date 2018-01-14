@@ -1,0 +1,1 @@
+the clear function is sequential on a vector, so it must be O(n) time. which is the worse case run time complexity.
